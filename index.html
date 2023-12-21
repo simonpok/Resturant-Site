@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEW WEBSITE</title>
+
+    <!-- CSS link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- JavaScript link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--FontAwesome link  -->
+    <script
+      src="https://kit.fontawesome.com/31149d48b0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script> -->
+
+
+    <!-- linking css -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+      <div class="container">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#foods">Our Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Baner/title image section -->
+    <section class="bgimage" id="home">
+      <div class="container-fluid">
+        <div class="row">
+            <!-- below class meaning for  -->
+          <div
+            class="col-lg-12 col-md-12 col-sm-12 col-xs-12 main-text">
+            <h2 class="main-title">Hamro Khaja Ghar</h2>
+            <p class="main-desc">गाउ-घर्मै बनेको</p>
+                    
+        </div>
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about">
+        <div class="container mt-3 pt-3">
+            <h1 class="text-center">About Us</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/food.png" class="aboutImage" alt="">
+                </div>
+                <div class="col-lg-8">
+                    <p><h4>Nepal mai baneko, Swadilo ani mitho!</h4></p>
+                    <div class="row mt-3">
+                        <div class="col-md-12">
+                            <!-- <ul>
+                                <li>Name: MNM</li>
+                                <li>Location:USA</li>
+                                <li>Occupation: Rapper</li>
+                            </ul> -->
+                            <p>Welcome to our Restaurant , a culinary haven where traditional Nepali flavors 
+                              come to life. Nestled in the heart of Kathmandu, our small restaurant is a celebration
+                               of authentic Himalayan cuisine, inviting you on a gastronomic journey through the diverse tastes
+                                of Nepal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Service Section -->
+    
+    <section id="foods">
+      <div class="container">
+        <h1 class="text-center">Our Foods</h1>
+        <div class="row">
+          <div class="col-lg-4 mt-4">
+            <div class="card ProductsText">
+              <div class="card-today">
+                <i class="fas foodicon fa-bacon"></i>
+                <h4 class="card-title mt-3">Breakfast</h4>
+                <p class="card-text mt-3">Awaken your senses with a Nepali-inspired breakfast that captures the essence of local flavors. 
+                  Experience a morning symphony of tastes, textures, and traditions that set the tone for the day.<br>
+                                            <a class="readmore" href="#" data-bs-toggle="modal" data-bs-target="#myModal1">Read more..</a>
+                                          </p>
+              </div>
+            </div>
+          </div>
+           <!-- Modal1 -->
+<div class="modal fade" id="myModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">BreakFast</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <!-- Content of your modal goes here -->
+ <p><strong>Here are List of Breakfast that we offer here:</strong><br><br>
+  <strong>Roti-Tarkari</strong><br>
+  <img src="images/rotiTarkali.jpeg" class="aboutImage" alt=""><br><br>
+  Embark on a culinary journey with the authentic flavors of Roti-Tarkari, a classic Nepali dish that harmonizes simplicity 
+  with rich taste. Soft, unleavened rotis, crafted from whole wheat flour, serve as the perfect vessel for an array of vibrant 
+  vegetable curries (Tarkari). Each bite is a delightful amalgamation of textures and tastes, where the wholesome roti complements 
+  the aromatic and savory Tarkari. Whether enjoyed as a comforting homely meal or a satisfying street food experience, Roti-Tarkari 
+  captures the essence of Nepal's culinary heritage.<br><br><br>
+  
+  <strong>Bread</strong><br>
+  <img src="images/bread.jpg" class="aboutImage" alt=""><br><br>
+  Experience the comforting simplicity of Nepali bread, a versatile staple that transcends cultures and occasions. Soft and 
+  pillowy, Nepali bread is expertly crafted to complement a variety of meals. Whether served as a side to savory curries or as 
+  the foundation for a hearty sandwich, this bread is a beloved accompaniment to diverse culinary delights. Enjoy the subtle 
+  sweetness and tender texture that make Nepali bread a cherished part of everyday meals and festive feasts alike.<br><br><br>
+  
+  <strong>Mutton-Thali</strong><br>
+  <img src="images/MuttonRice.jpeg" class="aboutImage" alt=""><br><br>
+  Elevate your dining experience with Nepali Mutton Rice, a delectable dish that showcases the robust flavors 
+  of succulent mutton and fragrant rice. Meticulously prepared with a medley of spices, this culinary masterpiece
+  brings together the tender goodness of mutton and the aromatic allure of perfectly cooked rice. Each bite is a
+  journey through the heart of Nepali gastronomy, where tradition meets innovation. Whether shared during special
+  occasions or relished as a comforting meal, Nepali Mutton Rice is a testament to the country's culinary heritage.<br><br><br>
+  
+  <strong>Chicken-Thali</strong><br>
+  <img src="images/chickenRice.png" class="aboutImage" alt=""><br><br>
+  Embark on a culinary journey with the rich and flavorful Nepali Chicken Rice. This traditional dish combines
+   succulent pieces of tender chicken with aromatic rice, expertly infused with an array of spices that dance 
+   on your taste buds. The marriage of tender poultry and fragrant grains creates a harmonious symphony of textures
+    and flavors. Whether enjoyed as a festive feast or a comforting family meal, Nepali Chicken Rice is a celebration
+     of Nepali culinary prowess, inviting you to experience the warmth and spice of the Himalayan kitchen.<br><br><br>
+  
+     <strong>Veg-Thali</strong><br>
+  <img src="images/vegRice.png" class="aboutImage" alt=""><br><br>
+  Discover the vibrant and wholesome goodness of Nepali Veg Rice, a vegetarian delight that captures the essence of Nepal's
+  diverse culinary landscape. Overflowing with colorful vegetables and fragrant rice, this dish is a celebration of freshness
+  and flavor. Expertly seasoned with a blend of spices, Nepali Veg Rice offers a symphony of tastes that cater to the discerning 
+  palate. Whether enjoyed as a standalone meal or as a delightful accompaniment to other Nepali dishes, this veggie-infused rice 
+  dish is a testament to the country's commitment to wholesome and delicious vegetarian cuisine.         
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+          <div class="col-lg-4 mt-4">
+            <div class="card ProductsText">
+              <div class="card-today">
+                <i class="fas foodicon fa-cookie"></i>
+                <h4 class="card-title mt-3">Snacks</h4>
+                <p class="card-text mt-3">Delight in a diverse array of Nepali snacks, where every bite tells a story of culinary heritage. From savory to spicy, 
+                  these snacks showcase the art of Nepali gastronomy in convenient, bite-sized portions.<br>
+                                            <a class="readmore" href="#" data-bs-toggle="modal" data-bs-target="#myModal2">Read more..</a></p>
+              </div>
+            </div>
+          </div>
+          
+           <!-- Modal2 -->
+<div class="modal fade" id="myModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Snacks</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Content of your modal goes here -->
+ <p><strong>Here are List of Snacks that we offer here:</strong><br><br>
+
+  <strong>Chana-Masala</strong><br>
+  <img src="images/ChanaMasala.jpg" class="aboutImage" alt=""><br><br>
+  Delight in the aromatic allure of Nepali Chana Masala, a flavorful dish that showcases the versatility of chickpeas. 
+  Simmered in a fragrant blend of spices, tomatoes, and onions, Chana Masala offers a hearty and satisfying meal. Whether 
+  enjoyed with rice or accompanied by flatbreads, this dish is a celebration of the rich and diverse flavors found in Nepali 
+  cuisine.<br><br><br>
+  
+  <strong>Mo:Mo</strong><br>
+  <img src="images/momos.jpg" class="aboutImage" alt=""><br><br>
+  Experience the culinary artistry of Nepali Momos, delectable dumplings that have captured hearts worldwide. These delicate 
+  parcels are filled with a flavorful mixture of minced meat or vegetables, encased in a thin layer of dough and steamed or 
+  fried to perfection. Served with a tangy dipping sauce, Momos are a symbol of Nepali hospitality and a must-try for those 
+  seeking a taste of Himalayan comfort and flavor.<br><br><br>
+  
+  <strong>Jeri</strong><br>
+  <img src="images/jeri.jpg" class="aboutImage" alt=""><br><br>
+  Transport yourself to a realm of sweetness with Nepali Jeri, a traditional sweet treat that captivates with its delicate and 
+  syrupy goodness. Made by deep-frying pretzel-shaped dough and then soaking it in sugar syrup, Jeri offers a delightful balance 
+  of crispy texture and sugary indulgence. Perfect for festive occasions or as a sweet pick-me-up, Jeri is a cherished part of 
+  Nepali dessert culture.<br><br><br>
+
+  <strong>Chatpate</strong><br>
+  <img src="images/chatpate.jpg" class="aboutImage" alt=""><br><br>
+  Indulge your taste buds with the bold and vibrant flavors of Nepali Chatpate. A popular street snack, Chatpate combines
+ puffed rice, roasted peanuts, fried lentils, and a medley of chopped vegetables, creating a symphony of textures and tastes. 
+ Seasoned with a spicy and tangy blend of spices, this savory delight is a go-to treat for those seeking a burst of flavor and 
+ crunch in every bite.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+          <div class="col-lg-4 mt-4">
+            <div class="card ProductsText">
+              <div class="card-today">
+                <i class="fas foodicon fa-utensils"></i>
+                <h4 class="card-title mt-3">Dinner</h4>
+                <p class="card-text mt-3">As the day winds down, immerse yourself in a Nepali dinner experience that unfolds like a cultural tapestry. 
+                  The dinner section offers a glimpse into the heart of Nepali cuisine, blending warmth, spices, and a sense of community.<br>
+                                            <a class="readmore" href="#" data-bs-toggle="modal" data-bs-target="#myModal3">Read more..</a></p>
+              </div>
+            </div>
+          </div>
+
+ <!-- Modal3 -->
+ <div class="modal fade" id="myModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Dinner</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Content of your modal goes here -->
+ <p><strong>Here are List of Dinner that we offer here:</strong><br><br>
+
+  <strong>Mutton-Thali</strong><br>
+  <img src="images/MuttonRice.jpeg" class="aboutImage" alt=""><br><br>
+  Elevate your dining experience with Nepali Mutton Rice, a delectable dish that showcases the robust flavors 
+  of succulent mutton and fragrant rice. Meticulously prepared with a medley of spices, this culinary masterpiece
+  brings together the tender goodness of mutton and the aromatic allure of perfectly cooked rice. Each bite is a
+  journey through the heart of Nepali gastronomy, where tradition meets innovation. Whether shared during special
+  occasions or relished as a comforting meal, Nepali Mutton Rice is a testament to the country's culinary heritage.<br><br><br>
+  
+  <strong>Chicken-Thali</strong><br>
+  <img src="images/chickenRice.png" class="aboutImage" alt=""><br><br>
+  Embark on a culinary journey with the rich and flavorful Nepali Chicken Rice. This traditional dish combines
+   succulent pieces of tender chicken with aromatic rice, expertly infused with an array of spices that dance 
+   on your taste buds. The marriage of tender poultry and fragrant grains creates a harmonious symphony of textures
+    and flavors. Whether enjoyed as a festive feast or a comforting family meal, Nepali Chicken Rice is a celebration
+     of Nepali culinary prowess, inviting you to experience the warmth and spice of the Himalayan kitchen.<br><br><br>
+  
+     <strong>Veg-Thali</strong><br>
+  <img src="images/vegRice.png" class="aboutImage" alt=""><br><br>
+  Discover the vibrant and wholesome goodness of Nepali Veg Rice, a vegetarian delight that captures the essence of Nepal's
+  diverse culinary landscape. Overflowing with colorful vegetables and fragrant rice, this dish is a celebration of freshness
+  and flavor. Expertly seasoned with a blend of spices, Nepali Veg Rice offers a symphony of tastes that cater to the discerning 
+  palate. Whether enjoyed as a standalone meal or as a delightful accompaniment to other Nepali dishes, this veggie-infused rice 
+  dish is a testament to the country's commitment to wholesome and delicious vegetarian cuisine.      
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+          <div class="col-lg-4 mt-4">
+            <div class="card ProductsText">
+              <div class="card-today">
+                <i class="fas foodicon fa-coffee"></i>
+                <h4 class="card-title mt-3">Tea/Coffee</h4>
+                <p class="card-text mt-3">Transport yourself to the tranquil tea gardens or coffee plantations of Nepal with our selection of beverages. 
+                  Whether it's the robust flavor of Himalayan tea or the comforting aroma of Nepali coffee, this section invites you to savor the moment.<br>
+                                            <a class="readmore" href="#" data-bs-toggle="modal" data-bs-target="#myModal4">Read more..</a></p>
+              </div>
+            </div>
+          </div>
+
+<!-- Modal4 -->
+<div class="modal fade" id="myModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Tea/coffee</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+ <!-- Content of your modal goes here -->
+ <p><strong>Here are List of Tea/Coffee that we offer here:</strong><br><br>
+
+  <strong>Tea</strong><br>
+  <img src="images/tea" class="aboutImage" alt=""><br><br>
+  Savor the comforting simplicity of Nepali Chiyā, a classic tea that warms both body and soul. 
+  Carefully brewed to perfection, our Simple Tea captures the essence of Nepal's tea-drinking culture.
+   Grown in the lush hills and steeped in tradition, this aromatic blend delivers a soothing experience
+    with every sip. Whether enjoyed alone for moments of reflection or shared among friends, Nepali Chiyā 
+    is a timeless beverage that brings people together over the warmth of a cup.<br><br><br>
+ 
+    <strong>Matka Tea</strong><br>
+ <img src="images/matkaTea.jpg" class="aboutImage" alt=""><br><br>
+  Immerse yourself in the rustic charm of Matka Tea, a uniquely Nepali tea experience. 
+  Brewed and served in traditional clay pots (matkas), this tea embodies the authenticity of Nepali tea culture.
+   The earthy notes of the clay pot impart a distinctive flavor to the tea, creating a sensory journey that harks
+    back to age-old traditions. Indulge in the rich aroma and robust taste of Matka Tea, a celebration of Nepal's
+     cultural heritage in every cup.<br><br><br>
+  
+     <strong>Coffee</strong><br>
+  <img src="images/Coffee.jpeg" class="aboutImage" alt=""><br><br>
+  Awaken your senses with the bold and invigorating taste of Nepali Coffee. Grown in the fertile soils of Nepal's
+   high-altitude regions, our coffee beans are meticulously roasted to perfection, delivering a rich and aromatic cup. 
+   Imbued with the spirit of the Himalayas, Nepali Coffee offers a unique flavor profile that reflects the terroir of 
+    origin. Whether you prefer it black, with milk, or sweetened, this coffee is a delightful journey through Nepal's 
+    emerging coffee culture.         
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+          <div class="col-lg-4 mt-4">
+            <div class="card ProductsText">
+              <div class="card-today">
+                <i class="fas foodicon fa-wine-glass"></i>
+                <h4 class="card-title mt-3">Drinks</h4>
+                <p class="card-text mt-3">Quench your thirst with a variety of Nepali-inspired drinks that celebrate the diversity of local beverages. From traditional concoctions to modern twists,
+                   the drinks section promises a refreshing journey through the liquid delights of Nepal. <br>
+                                            <a class="readmore" href="#" data-bs-toggle="modal" data-bs-target="#myModal5">Read more..</a></p>
+              </div>
+            </div>
+          </div>
+
+<!-- Modal5 -->
+<div class="modal fade" id="myModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Drinks</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <!-- Content of your modal goes here -->
+         <p><strong>Here are List of Our Drinks that we offer here:</strong><br><br>
+
+          <strong>Beer</strong><br>
+          <img src="images/beer.jpg" class="aboutImage" alt=""><br><br>
+          Embark on a delightful journey through Nepal's brewing traditions with our selection of Nepali beers. 
+          Crafted with care and precision, Nepali breweries offer a range of beers, from crisp and refreshing 
+          lagers to full-bodied ales. Each sip captures the essence of the Himalayan landscape, making it a 
+          perfect companion for moments of celebration and camaraderie. Experience the unique flavors and aromas 
+          that define Nepali beer culture and celebrate the spirit of togetherness.<br><br><br>
+          
+          <strong>Wine</strong><br>
+          <img src="images/Wine.png" class="aboutImage" alt=""><br><br>
+          IIndulge your palate with our curated selection of non-Nepali wines, bringing the world's finest vintages
+           to your table. Explore a diverse array of reds, whites, and rosés sourced from renowned vineyards across
+            the globe. Each bottle tells a story of terroir and craftsmanship, offering a sensory journey that transcends
+             borders. Elevate your dining experience with these international treasures, carefully selected to complement
+              and enhance your culinary adventures.<br><br><br>
+          
+              <strong>Chhaang</strong><br> 
+         <img src="images/Chhaang.jpg" class="aboutImage" alt=""><br><br>
+          Discover the traditional flavors of Nepal with Chhaang, a unique and culturally significant beverage. 
+          Made from fermented millet or barley, Chhaang has been a part of Nepali festivities and gatherings for
+           centuries. Its mildly alcoholic content adds a touch of warmth to social occasions. Enjoyed during festivals
+            and communal celebrations, Chhaang reflects the deep-rooted traditions and convivial spirit of Nepali culture. 
+            Experience the authenticity and heritage of Nepal through this time-honored beverage.<br><br><br>
+
+            <strong>Lassi</strong><br>
+            <img src="images/Lassi.jpg" class="aboutImage" alt=""><br><br>
+            Indulge in the refreshing allure of Nepali Lassi, a timeless yogurt-based beverage that captivates the senses.
+             Crafted with skillful precision, this velvety concoction strikes a perfect balance between the creaminess of yogurt
+              and the subtle sweetness of sugar. Whether enjoyed in its classic form or infused with vibrant flavors like mango
+               or rose, Nepali Lassi is a cooling elixir that provides respite on warm days. Served chilled and often garnished 
+               with a sprinkle of ground spices, every sip of Lassi is a harmonious blend of tradition and culinary innovation,
+                making it a beloved companion to Nepali meals or a standalone treat to beat the heat.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+          <div class="col-lg-4 mt-4">
+            <div class="card ProductsText">
+              <div class="card-today">
+                <i class="fas foodicon fa-star"></i>
+                <h4 class="card-title mt-3">Special</h4>
+                <p class="card-text mt-3">Indulge in the extraordinary with our special Nepali offerings. This section is a curated exploration of unique tastes, regional specialties, 
+                  and culinary surprises that showcase the breadth and depth of Nepali culinary creativity.<br>
+                                            <a class="readmore" href="#" data-bs-toggle="modal" data-bs-target="#myModal6">Read more..</a></p>
+            </div>
+          </div>
+
+<!-- Modal6 -->
+<div class="modal fade" id="myModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Special</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Content of your modal goes here -->
+        <p><strong>Here are List of Our Special Foods that we offer here:</strong><br><br>
+
+          <strong>Dhido</strong><br>
+          <img src="images/SpecialDhido.jpeg" class="aboutImage" alt=""><br><br>
+          <strong>Dhido</strong> is a traditional Nepali staple, cherished for its simplicity and cultural significance. 
+          Crafted from buckwheat or millet flour and water, the mixture is meticulously stirred during cooking, 
+          resulting in a dense, sticky, and elastic mass. Often served with an array of side dishes such as pickles, 
+          vegetables, and meat, Dhido stands as a symbol of Nepalese culinary heritage. Its preparation and consumption 
+          are deeply woven into the fabric of Gurung and Magar communities, making it a cherished part of local traditions.<br><br><br>
+          
+          <strong>juju-Dhau</strong><br>
+          <img src="images/SpecialJujuDhau.jpg" class="aboutImage" alt=""><br><br>
+          Indulge in the exquisite taste of <strong>Juju Dhau</strong>, affectionately known as "king curd." Hailing from Bhaktapur in the Kathmandu Valley of Nepal, 
+          this special yogurt is celebrated for its creamy texture and delightful sweetness. Served in charming clay pots, Juju Dhau takes center stage 
+          during festivals and special occasions. A symbol of culinary craftsmanship, this traditional delight is a testament to the rich cultural heritage of Nepal.<br><br><br>
+          
+          <strong>Sukuti(Dry Meat)</strong><br>
+          <img src="images/SpecialSukuti.jpg" class="aboutImage" alt=""><br><br>
+          Savor the robust flavors of <strong>Sukuti(Dry Meat)</strong>, a beloved Nepali treat that transcends time and tradition. Crafted from 
+          buffalo or goat meat, Sukuti undergoes a meticulous marination process with a medley of spices before being 
+          air-dried or sun-dried. The result is a delectable dried meat that serves as a popular snack or accompaniment. 
+          Enjoy Sukuti with rice or alongside your favorite beverage, reveling in the distinctive taste that embodies 
+          the essence of Nepali cuisine. A common delight in mountainous regions, Sukuti is a flavorful journey through
+           Nepal's culinary landscape.        
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+        </div>
+      </div>
+    </section>
+
+
+   
+
+    
+    <!-- Contact Information -->
+    <section id="contact">
+      <div class="container mt-3 contactContent">
+        <h1 class="text-center">Contact Us</h1>
+        
+        <div class="row mt-4">
+          <div class="col-lg-6">
+
+            <!-- Code for Map (Generated) -->
+            <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+            <div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;">
+            <iframe style="height:100%;width:100%;border:0;" frameborder="0" 
+            src="https://www.google.com/maps/embed/v1/place?q=Mephi,+Kathmandu,+Nepal&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+            </iframe>
+            </div>
+            <a class="google-maps-html" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="enable-map-info">premium bootstrap themes</a>
+            <style>#my-map-canvas img.text-marker{
+              max-width:none!important;background:none!important;}
+              img{max-width:none}
+              </style>
+              </div>
+          </div>
+
+        <div class="col-lg-6">
+          <!-- Form field -->
+          <form>
+            <input type="text" class="form-control form-control-lg" placeholder="Name">
+            <input type="email" class="form-control mt-3" placeholder="Email">
+            <input type="text" class="form-control mt-3" placeholder="subject">
+            <div class="mb-3 mt-3">
+              <textarea
+            class="form-control" name="text" id="comment" placeholder="Your Message" rows="5"></textarea>
+            </div>
+
+          </form>
+          <button class="btn btn-success mt-3">Submit</button>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer id="footer">
+      <div class="container-fluid">
+        <!-- Icons -->
+        <div class="social-icons mt-4">
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <!-- <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a> -->
+          <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <!-- <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a> -->
+      </div>
+
+      </div>
+    </footer>
+
+    
+
+
+  </body>
+</html>
