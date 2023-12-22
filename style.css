@@ -5,9 +5,9 @@ body {
   background-attachment: fixed;
 }
 
-.navbar {
+/* .navbar {
   background-color: gray;
-}
+} */
 
 /* For Banner Image */
 
@@ -18,6 +18,13 @@ body {
   position: relative;
 }
 
+.navbar-toggler-icon {
+  background-image: url(images/menu.png);
+}
+
+.navbar {
+  background-color: orange; /* Choose a color that contrasts well with the button */
+}
 /* For Main Title */
 
 .main-title {
@@ -85,7 +92,7 @@ body {
 }
 
 .navbarScroll.navbarDark {
-  background-color: blueviolet;
+  background-color: red;
 }
 
 /* Styles for Footer */
