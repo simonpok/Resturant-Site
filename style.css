@@ -21,6 +21,9 @@ body {
 .navbar-toggler-icon {
   background-image: url(images/menu.png);
 }
+button:focus {
+  outline: none;
+}
 
 .navbar {
   background-color: orange; /* Choose a color that contrasts well with the button */
